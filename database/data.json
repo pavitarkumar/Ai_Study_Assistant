@@ -1,0 +1,879 @@
+{
+  "student": {
+    "id": "user-demo-123",
+    "name": "Demo Student",
+    "email": "student@example.com",
+    "role": "Student",
+    "learningLevel": "Intermediate",
+    "targetGoal": "Master Data Structures & Operating Systems",
+    "todayStudyTimeMin": 45,
+    "currentStreak": 12,
+    "longestStreak": 15,
+    "quizAccuracyPct": 82,
+    "goalProgressPct": 74
+  },
+  "topics": [
+    {
+      "id": "top-1",
+      "name": "Arrays",
+      "category": "Data Structures",
+      "masteryPct": 88
+    },
+    {
+      "id": "top-2",
+      "name": "Linked List",
+      "category": "Data Structures",
+      "masteryPct": 76
+    },
+    {
+      "id": "top-3",
+      "name": "Stack",
+      "category": "Data Structures",
+      "masteryPct": 82
+    },
+    {
+      "id": "top-4",
+      "name": "Queue",
+      "category": "Data Structures",
+      "masteryPct": 79
+    },
+    {
+      "id": "top-5",
+      "name": "Trees",
+      "category": "Data Structures",
+      "masteryPct": 61
+    },
+    {
+      "id": "top-6",
+      "name": "Graphs",
+      "category": "Data Structures",
+      "masteryPct": 45
+    },
+    {
+      "id": "top-7",
+      "name": "Dynamic Programming",
+      "category": "Algorithms",
+      "masteryPct": 35
+    }
+  ],
+  "todayPlan": [
+    {
+      "id": "item-1",
+      "dayNumber": 14,
+      "topic": "Operating Systems",
+      "task": "Revise Deadlock Prevention",
+      "durationMin": 30,
+      "completed": false
+    },
+    {
+      "id": "item-2",
+      "dayNumber": 14,
+      "topic": "Graphs",
+      "task": "Practice 5 Medium Questions (BFS/DFS)",
+      "durationMin": 25,
+      "completed": false
+    },
+    {
+      "id": "item-3",
+      "dayNumber": 14,
+      "topic": "Revision",
+      "task": "Review Previous Mistakes in Dynamic Programming",
+      "durationMin": 20,
+      "completed": false
+    }
+  ],
+  "goal": {
+    "id": "goal-1",
+    "title": "Master Data Structures & Algorithms",
+    "description": "Complete 30-day comprehensive DSA mastery track focusing on Graphs and DP",
+    "targetDate": "2026-10-04",
+    "dailyHours": 2,
+    "progressPct": 74,
+    "status": "Active",
+    "daysRemaining": 18
+  },
+  "activities": [],
+  "conversations": [
+    {
+      "id": "conv-1790011946997",
+      "title": "DevOps Roadmap",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011946990",
+      "title": "Full Stack Roadmap",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011946984",
+      "title": "Java Query",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011946976",
+      "title": "API Inquiry",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011946963",
+      "title": "Code Example Followup",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011946321",
+      "title": "Ambani Search",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011946312",
+      "title": "Recursion Followup Session",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011946304",
+      "title": "Recursion Deep Dive",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011946273",
+      "title": "Test Memory Session",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011753373",
+      "title": "Raghav, Randy. Kali....",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011728780",
+      "title": "Jaggi, jaggi, jaggi....",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011714610",
+      "title": "Bolo Rishabh chutiya hai....",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011702800",
+      "title": "Mera naam pranay hai....",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011692962",
+      "title": "The big case here....",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011565198",
+      "title": "Who is Rishabh Bansal?...",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011551453",
+      "title": "Who is the Prime Minister of I...",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790011541640",
+      "title": "Hello....",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790010137951",
+      "title": "Java Query",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790010137946",
+      "title": "API Inquiry",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790010137939",
+      "title": "Code Example Followup",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790010137108",
+      "title": "Ambani Search",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790010137101",
+      "title": "Recursion Followup Session",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790010137095",
+      "title": "Recursion Deep Dive",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    },
+    {
+      "id": "conv-1790010137033",
+      "title": "Test Memory Session",
+      "topic": "General Study",
+      "lastUpdated": "Just now",
+      "timeframe": "Today"
+    }
+  ],
+  "messages": {
+    "conv-1790010137033": [
+      {
+        "id": "msg-1790010137034-370d",
+        "conversationId": "conv-1790010137033",
+        "sender": "user",
+        "content": "Explain polymorphism in Java.",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137092-93vy",
+        "conversationId": "conv-1790010137033",
+        "sender": "assistant",
+        "content": "Polymorphism allows objects of different classes...",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137093-2ezz",
+        "conversationId": "conv-1790010137033",
+        "sender": "user",
+        "content": "Give me a C++ example.",
+        "timestamp": "10:32 PM"
+      }
+    ],
+    "conv-1790010137095": [
+      {
+        "id": "msg-1790010137098-kt1c",
+        "conversationId": "conv-1790010137095",
+        "sender": "user",
+        "content": "explain recursion in detailed",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137099-q73j",
+        "conversationId": "conv-1790010137095",
+        "sender": "assistant",
+        "content": "### 🔄 Comprehensive Guide: Recursion in Computer Science\n\n**Recursion** is a foundational programming technique and algorithmic paradigm where a function solves a complex problem by calling a smaller instance of itself.\n\n---\n\n#### 1. The Two Indispensable Rules\nEvery well-formed recursive algorithm must consist of two components:\n1. **Base Case (Termination Condition)**:\n   - A straightforward condition that can be resolved immediately without making further recursive calls.\n   - Without a base case, execution enters infinite recursion, rapidly exhausting the memory allocated for the execution call stack and triggering a **`StackOverflowError`**.\n2. **Recursive Step (Subproblem Reduction)**:\n   - The expression where the function invokes itself, passing an argument strictly closer to the base case.\n\n---\n\n#### 2. Call Stack & Memory Mechanics\nEvery time a function invokes itself, the operating system allocates a new **Stack Frame** on the Call Stack containing the function's local variables, parameters, and return address.\n\n```text\nCall Stack Growth (Pushing):\n| factorial(1) = 1 [BASE CASE REACHED] |  ↑ Call Stack Grows\n| factorial(2) = 2 * factorial(1)      |  |\n| factorial(3) = 3 * factorial(2)      |  |\n| factorial(4) = 4 * factorial(3)      |  |\n+--------------------------------------+\n\nCall Stack Unwinding (Popping & Returning Values):\n1. factorial(1) returns 1\n2. factorial(2) computes 2 * 1 = 2 and pops\n3. factorial(3) computes 3 * 2 = 6 and pops\n4. factorial(4) computes 4 * 6 = 24 and pops -> FINAL ANSWER: 24\n```\n\n---\n\n#### 3. Code Implementations\n\n```python\n# Python 3: Recursive Factorial\ndef factorial(n: int) -> int:\n    if n <= 1:\n        return 1  # Base Case\n    return n * factorial(n - 1)  # Recursive Step\n\nprint(\"Factorial of 5 is:\", factorial(5))  # Output: 120\n```\n\n```cpp\n// C++: Recursive Factorial\n#include <iostream>\n\nlong long factorial(int n) {\n    if (n <= 1) return 1; // Base Case\n    return n * factorial(n - 1); // Recursive Step\n}\n\nint main() {\n    std::cout << \"Factorial of 5 is: \" << factorial(5) << std::endl;\n    return 0;\n}\n```\n\n---\n\n#### 4. Time & Space Complexity Analysis\n- **Time Complexity**: $\\mathcal{O}(n)$ — $n$ recursive calls are executed sequentially.\n- **Auxiliary Space Complexity**: $\\mathcal{O}(n)$ — $n$ concurrent activation records exist on the stack simultaneously.\n\n---\n\n#### 5. Recursion vs. Iteration\n| Criteria | Recursion | Iteration (Loops) |\n| :--- | :--- | :--- |\n| **Code Structure** | Elegant, compact, intuitive for trees/graphs | Verbose, requires manual state tracking |\n| **Memory Overhead** | Higher (call stack frames $\\mathcal{O}(n)$) | Minimal ($\\mathcal{O}(1)$ auxiliary space) |\n| **Execution Speed** | Slightly slower due to function call overhead | Faster, direct CPU instruction looping |\n| **Best Used For** | Tree traversals, Graph DFS, Divide & Conquer | Linear scans, arrays, numerical counters |",
+        "timestamp": "10:32 PM"
+      }
+    ],
+    "conv-1790010137101": [
+      {
+        "id": "msg-1790010137102-n34c",
+        "conversationId": "conv-1790010137101",
+        "sender": "user",
+        "content": "explain recursion in detailed",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137103-j7bk",
+        "conversationId": "conv-1790010137101",
+        "sender": "assistant",
+        "content": "### 🔄 Comprehensive Guide: Recursion in Computer Science\n\n**Recursion** is a foundational programming technique and algorithmic paradigm where a function solves a complex problem by calling a smaller instance of itself.\n\n---\n\n#### 1. The Two Indispensable Rules\nEvery well-formed recursive algorithm must consist of two components:\n1. **Base Case (Termination Condition)**:\n   - A straightforward condition that can be resolved immediately without making further recursive calls.\n   - Without a base case, execution enters infinite recursion, rapidly exhausting the memory allocated for the execution call stack and triggering a **`StackOverflowError`**.\n2. **Recursive Step (Subproblem Reduction)**:\n   - The expression where the function invokes itself, passing an argument strictly closer to the base case.\n\n---\n\n#### 2. Call Stack & Memory Mechanics\nEvery time a function invokes itself, the operating system allocates a new **Stack Frame** on the Call Stack containing the function's local variables, parameters, and return address.\n\n```text\nCall Stack Growth (Pushing):\n| factorial(1) = 1 [BASE CASE REACHED] |  ↑ Call Stack Grows\n| factorial(2) = 2 * factorial(1)      |  |\n| factorial(3) = 3 * factorial(2)      |  |\n| factorial(4) = 4 * factorial(3)      |  |\n+--------------------------------------+\n\nCall Stack Unwinding (Popping & Returning Values):\n1. factorial(1) returns 1\n2. factorial(2) computes 2 * 1 = 2 and pops\n3. factorial(3) computes 3 * 2 = 6 and pops\n4. factorial(4) computes 4 * 6 = 24 and pops -> FINAL ANSWER: 24\n```\n\n---\n\n#### 3. Code Implementations\n\n```python\n# Python 3: Recursive Factorial\ndef factorial(n: int) -> int:\n    if n <= 1:\n        return 1  # Base Case\n    return n * factorial(n - 1)  # Recursive Step\n\nprint(\"Factorial of 5 is:\", factorial(5))  # Output: 120\n```\n\n```cpp\n// C++: Recursive Factorial\n#include <iostream>\n\nlong long factorial(int n) {\n    if (n <= 1) return 1; // Base Case\n    return n * factorial(n - 1); // Recursive Step\n}\n\nint main() {\n    std::cout << \"Factorial of 5 is: \" << factorial(5) << std::endl;\n    return 0;\n}\n```\n\n---\n\n#### 4. Time & Space Complexity Analysis\n- **Time Complexity**: $\\mathcal{O}(n)$ — $n$ recursive calls are executed sequentially.\n- **Auxiliary Space Complexity**: $\\mathcal{O}(n)$ — $n$ concurrent activation records exist on the stack simultaneously.\n\n---\n\n#### 5. Recursion vs. Iteration\n| Criteria | Recursion | Iteration (Loops) |\n| :--- | :--- | :--- |\n| **Code Structure** | Elegant, compact, intuitive for trees/graphs | Verbose, requires manual state tracking |\n| **Memory Overhead** | Higher (call stack frames $\\mathcal{O}(n)$) | Minimal ($\\mathcal{O}(1)$ auxiliary space) |\n| **Execution Speed** | Slightly slower due to function call overhead | Faster, direct CPU instruction looping |\n| **Best Used For** | Tree traversals, Graph DFS, Divide & Conquer | Linear scans, arrays, numerical counters |",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137105-fbpv",
+        "conversationId": "conv-1790010137101",
+        "sender": "user",
+        "content": "Explain this simpler for a beginner.",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137106-kqf1",
+        "conversationId": "conv-1790010137101",
+        "sender": "assistant",
+        "content": "### 💡 Recursion Explained Simply (Beginner-Friendly)\n\nImagine you are sitting in the back row of a crowded movie theater and want to know: *\"Which row am I in?\"*\n\n1. You tap the shoulder of the person directly in front of you and ask: *\"What row are you in?\"*\n2. That person doesn't know either! So they tap the person in front of them with the exact same question.\n3. This repeating inquiry keeps moving forward until it reaches the person in the **very front row**.\n4. The front person says: *\"I'm in Row 1!\"* (This is the **Base Case** — the stopping condition).\n5. Now, the person behind them calculates: $1 + 1 = 2$, and turns around to tell the next person: *\"I'm in Row 2, so you are in Row 3!\"*\n6. The answer cascades all the way back to you!\n\n#### 🔑 The Two Golden Rules:\n- **Rule 1: The Base Case (Stop Condition)**: The simplest scenario that returns an immediate answer without calling itself. Without a base case, recursion runs infinitely until memory runs out (**Stack Overflow**).\n- **Rule 2: The Recursive Step (Progression)**: Breaking the problem down into a smaller instance of the exact same problem until it reaches the base case.",
+        "timestamp": "10:32 PM"
+      }
+    ],
+    "conv-1790010137108": [
+      {
+        "id": "msg-1790010137936-7tel",
+        "conversationId": "conv-1790010137108",
+        "sender": "user",
+        "content": "who is ambhani",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137938-de0h",
+        "conversationId": "conv-1790010137108",
+        "sender": "assistant",
+        "content": "### Mukesh Ambani\n*Indian businessman (born 1957)*\n\nMukesh Dhirubhai Ambani is an Indian businessman. He is the chairman and managing director of Reliance Industries, the largest public company in India by market capitalisation in 2025. As of June 2026, he is the richest person in Asia and the 22nd richest in the world, with a net worth of US$91.8 billion. He has attracted fame due to his growth and wealth, and criticism for being a plutocrat, and reports of market manipulation, political corruption, cronyism, and exploitation.\n\n#### Key Context:\n- 📌 **Topic**: Mukesh Ambani\n- 📖 **Details**: Indian businessman (born 1957)\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:32 PM"
+      }
+    ],
+    "conv-1790010137939": [
+      {
+        "id": "msg-1790010137941-yjyk",
+        "conversationId": "conv-1790010137939",
+        "sender": "user",
+        "content": "explain recursion in detailed",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137942-rh42",
+        "conversationId": "conv-1790010137939",
+        "sender": "assistant",
+        "content": "### 🔄 Comprehensive Guide: Recursion in Computer Science\n\n**Recursion** is a foundational programming technique and algorithmic paradigm where a function solves a complex problem by calling a smaller instance of itself.\n\n---\n\n#### 1. The Two Indispensable Rules\nEvery well-formed recursive algorithm must consist of two components:\n1. **Base Case (Termination Condition)**:\n   - A straightforward condition that can be resolved immediately without making further recursive calls.\n   - Without a base case, execution enters infinite recursion, rapidly exhausting the memory allocated for the execution call stack and triggering a **`StackOverflowError`**.\n2. **Recursive Step (Subproblem Reduction)**:\n   - The expression where the function invokes itself, passing an argument strictly closer to the base case.\n\n---\n\n#### 2. Call Stack & Memory Mechanics\nEvery time a function invokes itself, the operating system allocates a new **Stack Frame** on the Call Stack containing the function's local variables, parameters, and return address.\n\n```text\nCall Stack Growth (Pushing):\n| factorial(1) = 1 [BASE CASE REACHED] |  ↑ Call Stack Grows\n| factorial(2) = 2 * factorial(1)      |  |\n| factorial(3) = 3 * factorial(2)      |  |\n| factorial(4) = 4 * factorial(3)      |  |\n+--------------------------------------+\n\nCall Stack Unwinding (Popping & Returning Values):\n1. factorial(1) returns 1\n2. factorial(2) computes 2 * 1 = 2 and pops\n3. factorial(3) computes 3 * 2 = 6 and pops\n4. factorial(4) computes 4 * 6 = 24 and pops -> FINAL ANSWER: 24\n```\n\n---\n\n#### 3. Code Implementations\n\n```python\n# Python 3: Recursive Factorial\ndef factorial(n: int) -> int:\n    if n <= 1:\n        return 1  # Base Case\n    return n * factorial(n - 1)  # Recursive Step\n\nprint(\"Factorial of 5 is:\", factorial(5))  # Output: 120\n```\n\n```cpp\n// C++: Recursive Factorial\n#include <iostream>\n\nlong long factorial(int n) {\n    if (n <= 1) return 1; // Base Case\n    return n * factorial(n - 1); // Recursive Step\n}\n\nint main() {\n    std::cout << \"Factorial of 5 is: \" << factorial(5) << std::endl;\n    return 0;\n}\n```\n\n---\n\n#### 4. Time & Space Complexity Analysis\n- **Time Complexity**: $\\mathcal{O}(n)$ — $n$ recursive calls are executed sequentially.\n- **Auxiliary Space Complexity**: $\\mathcal{O}(n)$ — $n$ concurrent activation records exist on the stack simultaneously.\n\n---\n\n#### 5. Recursion vs. Iteration\n| Criteria | Recursion | Iteration (Loops) |\n| :--- | :--- | :--- |\n| **Code Structure** | Elegant, compact, intuitive for trees/graphs | Verbose, requires manual state tracking |\n| **Memory Overhead** | Higher (call stack frames $\\mathcal{O}(n)$) | Minimal ($\\mathcal{O}(1)$ auxiliary space) |\n| **Execution Speed** | Slightly slower due to function call overhead | Faster, direct CPU instruction looping |\n| **Best Used For** | Tree traversals, Graph DFS, Divide & Conquer | Linear scans, arrays, numerical counters |",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137944-67b0",
+        "conversationId": "conv-1790010137939",
+        "sender": "user",
+        "content": "Give me a practical C++ / Java example.",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137945-nm5l",
+        "conversationId": "conv-1790010137939",
+        "sender": "assistant",
+        "content": "### 💻 Practical Code Examples: Recursion\n\nHere are clean, commented implementations of **Factorial Calculation** ($n!$) and **Countdown**:\n\n#### 1. Python Implementation:\n```python\ndef factorial(n: int) -> int:\n    \"\"\"Calculates n! = n * (n-1) * ... * 1\"\"\"\n    # 1. BASE CASE: Prevents infinite recursion\n    if n <= 1:\n        return 1\n    \n    # 2. RECURSIVE CASE: Subproblem reduction\n    return n * factorial(n - 1)\n\n# Test the function\nprint(factorial(5))  # Output: 120 (5 * 4 * 3 * 2 * 1)\n```\n\n#### 2. C++ Implementation:\n```cpp\n#include <iostream>\n\nlong long factorial(int n) {\n    // 1. Base Case\n    if (n <= 1) {\n        return 1;\n    }\n    // 2. Recursive Case\n    return n * factorial(n - 1);\n}\n\nint main() {\n    int number = 5;\n    std::cout << \"Factorial of \" << number << \" is: \" << factorial(number) << std::endl;\n    return 0;\n}\n```\n\n#### 3. Execution Trace for `factorial(3)`:\n- `factorial(3)` calls `3 * factorial(2)`\n- `factorial(2)` calls `2 * factorial(1)`\n- `factorial(1)` hits Base Case and returns `1`\n- Unwinds: `2 * 1 = 2` $\\rightarrow$ `3 * 2 = 6`.",
+        "timestamp": "10:32 PM"
+      }
+    ],
+    "conv-1790010137946": [
+      {
+        "id": "msg-1790010137946-merz",
+        "conversationId": "conv-1790010137946",
+        "sender": "user",
+        "content": "on which api you are working to give ans",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137946-3w3c",
+        "conversationId": "conv-1790010137946",
+        "sender": "assistant",
+        "content": "### 🛠️ Architecture & APIs Powering AI Study Assistant\n\nThe **AI Study Assistant** is powered by an enterprise cloud architecture built on **Microsoft Azure AI Services**:\n\n---\n\n#### 1. 🧠 LLM Reasoning & Text Completions\n- **Service**: **Microsoft Azure AI Foundry / Azure OpenAI**\n- **Configured Endpoint**: `https://aistudy101.services.ai.azure.com/`\n- **Deployment Name**: `Aiassistant`\n- **How it Works**:\n  - When the Azure Foundry model responds, completions are generated directly by Azure AI models (e.g. GPT-4o / GPT-4o-mini).\n  - If your Azure resource returns `500 Internal Server Error` or `404 Deployment Not Found` (for instance, when a model is not currently deployed in Azure AI Foundry or has exceeded Azure quota limits), the system seamlessly fails over to our **Intelligent Local Study Engine** to ensure zero-downtime, verified answers.\n\n---\n\n#### 2. 🔍 Document Retrieval (RAG - Retrieval-Augmented Generation)\n- **Service**: **Azure AI Search**\n- **Configured Endpoint**: `https://aistudy-search-india-99.search.windows.net`\n- **Search Index**: `study-documents-index`\n- **How it Works**:\n  - Indexes chunks of your uploaded course materials (PDFs, PPTXs, Word notes) in the *\"My Documents\"* tab.\n  - Executes hybrid semantic and keyword search so answers can be cited with exact page numbers.\n\n---\n\n#### 3. 📄 Document Intelligence (OCR & Extraction)\n- **Service**: **Azure Document Intelligence** (`study-intelligence`)\n- **Configured Endpoint**: `https://study-intelligence.cognitiveservices.azure.com/`\n- **How it Works**:\n  - Performs layout parsing, optical character recognition (OCR), table extraction, and paragraph chunking when new study files are uploaded.\n\n---\n\n#### 4. 🎙️ Voice Input & Natural Speech\n- **Service**: **Azure AI Speech Services**\n- **Configured Region**: `centralindia`\n- **How it Works**:\n  - Converts microphone speech to text and reads out study explanations via neural text-to-speech.\n\n---\n\n#### 5. 🌐 Academic Knowledge & Curriculum Engine\n- **How it Works**:\n  - Powers verified CS curriculum guides (Java, C++, Python, Recursion, Binary Search, Trees, Graphs, OS, DBMS), live encyclopedic entity lookups via Wikipedia OpenSearch, and instant arithmetic computation.",
+        "timestamp": "10:32 PM"
+      }
+    ],
+    "conv-1790010137951": [
+      {
+        "id": "msg-1790010137952-r2ri",
+        "conversationId": "conv-1790010137951",
+        "sender": "user",
+        "content": "java",
+        "timestamp": "10:32 PM"
+      },
+      {
+        "id": "msg-1790010137952-auxf",
+        "conversationId": "conv-1790010137951",
+        "sender": "assistant",
+        "content": "### ☕ Java Programming Language\n\n**Java** is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. It was created by **James Gosling** at **Sun Microsystems** (released in 1995, now maintained by Oracle Corporation).\n\n---\n\n#### 1. Core Architecture: JDK vs. JRE vs. JVM\n- **JDK (Java Development Kit)**: Complete toolkit for developers. Includes the compiler (`javac`), debugger, and the JRE.\n- **JRE (Java Runtime Environment)**: Provides the minimum environment to *run* compiled Java bytecode. Includes standard class libraries and the JVM.\n- **JVM (Java Virtual Machine)**: The core engine that executes Java bytecode (`.class`) by converting it to native machine code on the host operating system using the **JIT (Just-In-Time) Compiler**.\n\n```text\n+-------------------------------------------------------+\n| JDK (Development Tools: javac, jar, javadoc)          |\n|  +-------------------------------------------------+  |\n|  | JRE (Libraries, runtime packages)               |  |\n|  |   +------------------------------------------+  |  |\n|  |   | JVM (Class Loader, Bytecode Verifier,    |  |  |\n|  |   |      JIT Compiler, Garbage Collector)    |  |  |\n|  |   +------------------------------------------+  |  |\n|  +-------------------------------------------------+  |\n+-------------------------------------------------------+\n```\n\n---\n\n#### 2. Key Pillars & Features\n1. **\"Write Once, Run Anywhere\" (WORA)**: Bytecode executes on any platform with a compatible JVM.\n2. **Robust Memory Management**: Automatic **Garbage Collection (GC)** deallocates unreferenced heap objects, eliminating manual pointer memory leaks.\n3. **Strict Object-Oriented**: Everything (except 8 primitive data types) is modeled as an Object.\n4. **Multithreading**: Native support for concurrent execution via `Thread` class and `java.util.concurrent`.\n\n---\n\n#### 3. Standard Code Example\n```java\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello from Java! 🚀\");\n    }\n}\n```\n\n---\n\n#### 4. Key Exam & Interview Takeaways\n- **Why is Java not 100% pure Object-Oriented?** Because it supports primitive data types (`int`, `char`, `boolean`, `float`, etc.) for performance.\n- **JVM Memory Areas**: Class/Method Area (Metaspace), Heap (Objects), Stack (Method frames & local variables), Program Counter (PC) Register, Native Method Stack.",
+        "timestamp": "10:32 PM"
+      }
+    ],
+    "conv-1790011328590": [
+      {
+        "id": "msg-1790011329670-r2az",
+        "conversationId": "conv-1790011328590",
+        "sender": "user",
+        "content": "hello",
+        "timestamp": "10:52 PM"
+      },
+      {
+        "id": "msg-1790011329751-wok1",
+        "conversationId": "conv-1790011328590",
+        "sender": "assistant",
+        "content": "Hello! 👋 I am your Personal AI Study Assistant.\n\nHow can I help you with your studies today? You can:\n- **Ask calculation & math questions** (e.g., *\"5+5\"*, *\"what is 25 * 4\"*)\n- **Ask location & general knowledge questions** (e.g., *\"Where is Chitkara University?\"*, *\"Who is Modi?\"*, *\"Who is Ambani?\"*)\n- **Ask programming & concept questions** (e.g., *\"Explain recursion in detail\"*, *\"Binary search implementation\"*, *\"Who created Java?\"*)\n- **Generate practice quizzes & study schedules** (e.g., *\"Create a 5-question quiz on Graphs\"*).",
+        "timestamp": "10:52 PM"
+      },
+      {
+        "id": "msg-1790011344117-qftp",
+        "conversationId": "conv-1790011328590",
+        "sender": "user",
+        "content": "who is modi",
+        "timestamp": "10:52 PM"
+      },
+      {
+        "id": "msg-1790011344119-gl1x",
+        "conversationId": "conv-1790011328590",
+        "sender": "assistant",
+        "content": "### Narendra Modi\n*Prime Minister of India since 2014*\n\nNarendra Damodardas Modi is an Indian politician who has served as the prime minister of India since 26 May 2014. Modi was the chief minister of Gujarat from 2001 to 2014 and is the Member of Parliament (MP) for Varanasi. He is a member of the Bharatiya Janata Party (BJP) and of the Rashtriya Swayamsevak Sangh (RSS), a right-wing Hindutva paramilitary volunteer organisation. He is India's third-longest-serving prime minister, and the longest-serving prime minister outside the Indian National Congress.\n\n#### Key Context:\n- 📌 **Topic**: Narendra Modi\n- 📖 **Details**: Prime Minister of India since 2014\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:52 PM"
+      },
+      {
+        "id": "msg-1790011353865-iome",
+        "conversationId": "conv-1790011328590",
+        "sender": "user",
+        "content": "where is chitkara university",
+        "timestamp": "10:52 PM"
+      },
+      {
+        "id": "msg-1790011353867-yh4a",
+        "conversationId": "conv-1790011328590",
+        "sender": "assistant",
+        "content": "### Chitkara University\n*Leading Private University in Punjab & Himachal Pradesh, India*\n\n📍 **Campuses & Locations**:\n1. **Punjab Campus (Main Campus)**: Located on the Chandigarh-Patiala National Highway (NH-64), **Rajpura, District Patiala, Punjab - 140401** (approx. 30 km from Chandigarh).\n2. **Himachal Pradesh Campus**: Located at HIMUDA Education Hub, **Barotiwala, District Solan, Himachal Pradesh - 174103** (near Baddi/Pinjore).\n\n#### Key Academic Details:\n- 🏛️ **Establishment**: Founded by the Chitkara Educational Trust (Dr. Ashok K. Chitkara & Dr. Madhu Chitkara).\n- 🎓 **Core Programs**: Engineering & Technology (CSE, AI, ECE), Business & Management, Computer Applications (BCA/MCA), Pharmacy, Healthcare & Nursing, Architecture, and Design.\n- 🌟 **Accreditation**: Recognized by UGC with NAAC A+ accreditation status.",
+        "timestamp": "10:52 PM"
+      },
+      {
+        "id": "msg-1790011367425-rts0",
+        "conversationId": "conv-1790011328590",
+        "sender": "user",
+        "content": "where is thapar university",
+        "timestamp": "10:52 PM"
+      },
+      {
+        "id": "msg-1790011367427-inrt",
+        "conversationId": "conv-1790011328590",
+        "sender": "assistant",
+        "content": "### Thapar Institute of Engineering and Technology\n*University in Patiala, India*\n\n📍 **Location Details**: Thapar Institute of Engineering and Technology (TIET), formerly Thapar University, is a private deemed-to-be-university, in Patiala, India. The institute provides multiple subjects; including art, computer science, liberal arts and business administration.\n\n#### Key Context:\n- 📌 **Topic**: Thapar Institute of Engineering and Technology\n- 📖 **Details**: University in Patiala, India\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:52 PM"
+      },
+      {
+        "id": "msg-1790011380442-gkes",
+        "conversationId": "conv-1790011328590",
+        "sender": "user",
+        "content": "capital of state haryana",
+        "timestamp": "10:53 PM"
+      },
+      {
+        "id": "msg-1790011380445-rfqy",
+        "conversationId": "conv-1790011328590",
+        "sender": "assistant",
+        "content": "### List of districts of Haryana\n\nHaryana, with 23 districts, is a state in the northern region of India and is the nation's eighteenth most populous. The state borders with Punjab and Himachal Pradesh to the north and Rajasthan to the west and south. The river Yamuna defines its eastern border with Uttar Pradesh. Haryana also surrounds Delhi on three sides, forming the northern, western and southern borders of Delhi. Consequently, a large area of Haryana is included in the National Capital Region. Chandigarh is the capital of Punjab and Haryana jointly.\n\n#### Key Context:\n- 📌 **Topic**: List of districts of Haryana\n- 📖 **Details**: Verified encyclopedic knowledge.\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:53 PM"
+      },
+      {
+        "id": "msg-1790011388922-4c7p",
+        "conversationId": "conv-1790011328590",
+        "sender": "user",
+        "content": "capital of india",
+        "timestamp": "10:53 PM"
+      },
+      {
+        "id": "msg-1790011388924-culh",
+        "conversationId": "conv-1790011328590",
+        "sender": "assistant",
+        "content": "### List of capitals of India\n\nThis is a list of locations which have served as capital cities in India. The current capital city is New Delhi, which replaced Calcutta in 1911.\n\n#### Key Context:\n- 📌 **Topic**: List of capitals of India\n- 📖 **Details**: Verified encyclopedic knowledge.\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:53 PM"
+      },
+      {
+        "id": "msg-1790011414637-qxo5",
+        "conversationId": "conv-1790011328590",
+        "sender": "user",
+        "content": "Create a quiz on this topic.",
+        "timestamp": "10:53 PM"
+      },
+      {
+        "id": "msg-1790011414639-95a6",
+        "conversationId": "conv-1790011328590",
+        "sender": "assistant",
+        "content": "### 🎯 Quick Quiz: List of capitals of India\n\n**Question 1: What is the primary role or classification of List of capitals of India?**\n- A) Prominent national or global figure 🟢\n- B) Historical ancient artifact\n- C) Modern software compiler\n- D) Chemical compound\n\n**Question 2: In which domain does List of capitals of India have the largest impact?**\n- A) Business, leadership, or public affairs 🟢\n- B) Marine biology\n- C) Classical archaeology\n- D) Meteorology",
+        "timestamp": "10:53 PM"
+      },
+      {
+        "id": "msg-1790011429902-p2ep",
+        "conversationId": "conv-1790011328590",
+        "sender": "user",
+        "content": "how many countries in the world",
+        "timestamp": "10:53 PM"
+      },
+      {
+        "id": "msg-1790011429904-825y",
+        "conversationId": "conv-1790011328590",
+        "sender": "assistant",
+        "content": "### Third World\n*Group of states not aligned with the US or USSR*\n\nThe term Third World arose during the Cold War to define countries that remained non-aligned with either NATO or the Warsaw Pact. The United States, Canada, Japan, South Korea, Turkey, the Southern Cone, Western European countries and other allies represented the \"First World\", while the Soviet Union, China, Cuba, North Korea, Vietnam, Romania and the rest of the Warsaw Pact and their allies represented the \"Second World\". This terminology provided a way of broadly categorizing the nations of the Earth into three groups based on political divisions. Due to the complex history of evolving meanings and contexts, there is no clear or agreed-upon definition of the Third World. Strictly speaking, \"Third World\" was a political, rather than economic, grouping.\n\n#### Key Context:\n- 📌 **Topic**: Third World\n- 📖 **Details**: Group of states not aligned with the US or USSR\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:53 PM"
+      }
+    ],
+    "conv-1790011541640": [
+      {
+        "id": "msg-1790011541649-ds8y",
+        "conversationId": "conv-1790011541640",
+        "sender": "user",
+        "content": "Hello.",
+        "timestamp": "10:55 PM"
+      },
+      {
+        "id": "msg-1790011541652-w3ir",
+        "conversationId": "conv-1790011541640",
+        "sender": "assistant",
+        "content": "Hello! 👋 I am your Personal AI Study Assistant.\n\nHow can I help you with your studies today? You can:\n- **Ask calculation & math questions** (e.g., *\"5+5\"*, *\"what is 25 * 4\"*)\n- **Ask location & general knowledge questions** (e.g., *\"Where is Chitkara University?\"*, *\"Who is Modi?\"*, *\"Who is Ambani?\"*)\n- **Ask programming & concept questions** (e.g., *\"Explain recursion in detail\"*, *\"Binary search implementation\"*, *\"Who created Java?\"*)\n- **Generate practice quizzes & study schedules** (e.g., *\"Create a 5-question quiz on Graphs\"*).",
+        "timestamp": "10:55 PM"
+      }
+    ],
+    "conv-1790011551453": [
+      {
+        "id": "msg-1790011553011-ci0d",
+        "conversationId": "conv-1790011551453",
+        "sender": "user",
+        "content": "Who is the Prime Minister of India?",
+        "timestamp": "10:55 PM"
+      },
+      {
+        "id": "msg-1790011553016-4vt2",
+        "conversationId": "conv-1790011551453",
+        "sender": "assistant",
+        "content": "### Prime Minister of India\n*Head of government*\n\nThe prime minister of India is the head of government of the Republic of India. Executive authority is vested in the prime minister and his chosen Council of Ministers, despite the President of India being the nominal head of state. The prime minister has to be a member of one of the houses of bicameral Parliament of India, alongside heading the respective house. The prime minister and the cabinet are at all times responsible to the Lok Sabha, the lower house of the Parliament.\n\n#### Key Context:\n- 📌 **Topic**: Prime Minister of India\n- 📖 **Details**: Head of government\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:55 PM"
+      }
+    ],
+    "conv-1790011565198": [
+      {
+        "id": "msg-1790011566712-q8np",
+        "conversationId": "conv-1790011565198",
+        "sender": "user",
+        "content": "Who is Rishabh Bansal?",
+        "timestamp": "10:56 PM"
+      },
+      {
+        "id": "msg-1790011566715-hei7",
+        "conversationId": "conv-1790011565198",
+        "sender": "assistant",
+        "content": "### Raat Akeli Hai: The Bansal Murders\n*2025 Indian crime thriller film*\n\nRaat Akeli Hai: The Bansal Murders is a 2025 Indian Hindi-language crime thriller film directed by Honey Trehan. Produced by Ronnie Screwvala's RSVP Movies and Honey Trehan and Abhishek Chaubey's MacGuffin Pictures, the film stars Nawazuddin Siddiqui and Chitrangada Singh, with Radhika Apte making a special appearance. It is a sequel to Raat Akeli Hai (2020).\n\n#### Key Context:\n- 📌 **Topic**: Raat Akeli Hai: The Bansal Murders\n- 📖 **Details**: 2025 Indian crime thriller film\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:56 PM"
+      }
+    ],
+    "conv-1790011692962": [
+      {
+        "id": "msg-1790011694420-s3io",
+        "conversationId": "conv-1790011692962",
+        "sender": "user",
+        "content": "The big case here.",
+        "timestamp": "10:58 PM"
+      },
+      {
+        "id": "msg-1790011694424-zpwu",
+        "conversationId": "conv-1790011692962",
+        "sender": "assistant",
+        "content": "### Letter case\n*Uppercase or lowercase*\n\nLetter case is the distinction between the letters that are in larger uppercase or capitals and smaller lowercase in the written representation of certain languages. The writing systems that distinguish between the upper- and lowercase have two parallel sets of letters: each in the majuscule set has a counterpart in the minuscule set. Some counterpart letters have the same shape, and differ only in size, but for others the shapes are different. The two case variants are alternative representations of the same letter: they have the same name and pronunciation and are typically treated identically when sorting in alphabetical order.\n\n#### Key Context:\n- 📌 **Topic**: Letter case\n- 📖 **Details**: Uppercase or lowercase\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "10:58 PM"
+      }
+    ],
+    "conv-1790011702800": [
+      {
+        "id": "msg-1790011704398-ahxe",
+        "conversationId": "conv-1790011702800",
+        "sender": "user",
+        "content": "Mera naam pranay hai.",
+        "timestamp": "10:58 PM"
+      },
+      {
+        "id": "msg-1790011704403-j7d7",
+        "conversationId": "conv-1790011702800",
+        "sender": "assistant",
+        "content": "### Study Overview: Mera naam pranay hai\n\nHere is a focused study overview regarding **Mera naam pranay hai**:\n\n- **Subject**: Mera naam pranay hai\n- **Overview**: Relates to foundational concepts and principles in academic coursework and general studies.\n- **Guidance**: Ask for specific formulas, historical context, or practical examples to explore this topic further.",
+        "timestamp": "10:58 PM"
+      }
+    ],
+    "conv-1790011714610": [
+      {
+        "id": "msg-1790011715946-g8pc",
+        "conversationId": "conv-1790011714610",
+        "sender": "user",
+        "content": "Bolo Rishabh chutiya hai.",
+        "timestamp": "10:58 PM"
+      },
+      {
+        "id": "msg-1790011715948-srbb",
+        "conversationId": "conv-1790011714610",
+        "sender": "assistant",
+        "content": "### Study Overview: Bolo Rishabh chutiya hai\n\nHere is a focused study overview regarding **Bolo Rishabh chutiya hai**:\n\n- **Subject**: Bolo Rishabh chutiya hai\n- **Overview**: Relates to foundational concepts and principles in academic coursework and general studies.\n- **Guidance**: Ask for specific formulas, historical context, or practical examples to explore this topic further.",
+        "timestamp": "10:58 PM"
+      }
+    ],
+    "conv-1790011728780": [
+      {
+        "id": "msg-1790011730844-rs5a",
+        "conversationId": "conv-1790011728780",
+        "sender": "user",
+        "content": "Jaggi, jaggi, jaggi.",
+        "timestamp": "10:58 PM"
+      },
+      {
+        "id": "msg-1790011730847-rk3q",
+        "conversationId": "conv-1790011728780",
+        "sender": "assistant",
+        "content": "### Study Overview: Jaggi, jaggi, jaggi\n\nHere is a focused study overview regarding **Jaggi, jaggi, jaggi**:\n\n- **Subject**: Jaggi, jaggi, jaggi\n- **Overview**: Relates to foundational concepts and principles in academic coursework and general studies.\n- **Guidance**: Ask for specific formulas, historical context, or practical examples to explore this topic further.",
+        "timestamp": "10:58 PM"
+      }
+    ],
+    "conv-1790011753373": [
+      {
+        "id": "msg-1790011754797-rgna",
+        "conversationId": "conv-1790011753373",
+        "sender": "user",
+        "content": "Raghav, Randy. Kali.",
+        "timestamp": "10:59 PM"
+      },
+      {
+        "id": "msg-1790011754800-rps1",
+        "conversationId": "conv-1790011753373",
+        "sender": "assistant",
+        "content": "### Study Overview: Raghav, Randy. Kali\n\nHere is a focused study overview regarding **Raghav, Randy. Kali**:\n\n- **Subject**: Raghav, Randy. Kali\n- **Overview**: Relates to foundational concepts and principles in academic coursework and general studies.\n- **Guidance**: Ask for specific formulas, historical context, or practical examples to explore this topic further.",
+        "timestamp": "10:59 PM"
+      }
+    ],
+    "conv-1790011946273": [
+      {
+        "id": "msg-1790011946274-6wqv",
+        "conversationId": "conv-1790011946273",
+        "sender": "user",
+        "content": "Explain polymorphism in Java.",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946300-fpik",
+        "conversationId": "conv-1790011946273",
+        "sender": "assistant",
+        "content": "Polymorphism allows objects of different classes...",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946301-n3j0",
+        "conversationId": "conv-1790011946273",
+        "sender": "user",
+        "content": "Give me a C++ example.",
+        "timestamp": "11:02 PM"
+      }
+    ],
+    "conv-1790011946304": [
+      {
+        "id": "msg-1790011946309-hq4t",
+        "conversationId": "conv-1790011946304",
+        "sender": "user",
+        "content": "explain recursion in detailed",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946310-vz6l",
+        "conversationId": "conv-1790011946304",
+        "sender": "assistant",
+        "content": "### 🔄 Comprehensive Guide: Recursion in Computer Science\n\n**Recursion** is a foundational programming technique and algorithmic paradigm where a function solves a complex problem by calling a smaller instance of itself.\n\n---\n\n#### 1. The Two Indispensable Rules\nEvery well-formed recursive algorithm must consist of two components:\n1. **Base Case (Termination Condition)**:\n   - A straightforward condition that can be resolved immediately without making further recursive calls.\n   - Without a base case, execution enters infinite recursion, rapidly exhausting the memory allocated for the execution call stack and triggering a **`StackOverflowError`**.\n2. **Recursive Step (Subproblem Reduction)**:\n   - The expression where the function invokes itself, passing an argument strictly closer to the base case.\n\n---\n\n#### 2. Call Stack & Memory Mechanics\nEvery time a function invokes itself, the operating system allocates a new **Stack Frame** on the Call Stack containing the function's local variables, parameters, and return address.\n\n```text\nCall Stack Growth (Pushing):\n| factorial(1) = 1 [BASE CASE REACHED] |  ↑ Call Stack Grows\n| factorial(2) = 2 * factorial(1)      |  |\n| factorial(3) = 3 * factorial(2)      |  |\n| factorial(4) = 4 * factorial(3)      |  |\n+--------------------------------------+\n\nCall Stack Unwinding (Popping & Returning Values):\n1. factorial(1) returns 1\n2. factorial(2) computes 2 * 1 = 2 and pops\n3. factorial(3) computes 3 * 2 = 6 and pops\n4. factorial(4) computes 4 * 6 = 24 and pops -> FINAL ANSWER: 24\n```\n\n---\n\n#### 3. Code Implementations\n\n```python\n# Python 3: Recursive Factorial\ndef factorial(n: int) -> int:\n    if n <= 1:\n        return 1  # Base Case\n    return n * factorial(n - 1)  # Recursive Step\n\nprint(\"Factorial of 5 is:\", factorial(5))  # Output: 120\n```\n\n```cpp\n// C++: Recursive Factorial\n#include <iostream>\n\nlong long factorial(int n) {\n    if (n <= 1) return 1; // Base Case\n    return n * factorial(n - 1); // Recursive Step\n}\n\nint main() {\n    std::cout << \"Factorial of 5 is: \" << factorial(5) << std::endl;\n    return 0;\n}\n```\n\n---\n\n#### 4. Time & Space Complexity Analysis\n- **Time Complexity**: $\\mathcal{O}(n)$ — $n$ recursive calls are executed sequentially.\n- **Auxiliary Space Complexity**: $\\mathcal{O}(n)$ — $n$ concurrent activation records exist on the stack simultaneously.\n\n---\n\n#### 5. Recursion vs. Iteration\n| Criteria | Recursion | Iteration (Loops) |\n| :--- | :--- | :--- |\n| **Code Structure** | Elegant, compact, intuitive for trees/graphs | Verbose, requires manual state tracking |\n| **Memory Overhead** | Higher (call stack frames $\\mathcal{O}(n)$) | Minimal ($\\mathcal{O}(1)$ auxiliary space) |\n| **Execution Speed** | Slightly slower due to function call overhead | Faster, direct CPU instruction looping |\n| **Best Used For** | Tree traversals, Graph DFS, Divide & Conquer | Linear scans, arrays, numerical counters |",
+        "timestamp": "11:02 PM"
+      }
+    ],
+    "conv-1790011946312": [
+      {
+        "id": "msg-1790011946314-2pdi",
+        "conversationId": "conv-1790011946312",
+        "sender": "user",
+        "content": "explain recursion in detailed",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946316-1fl2",
+        "conversationId": "conv-1790011946312",
+        "sender": "assistant",
+        "content": "### 🔄 Comprehensive Guide: Recursion in Computer Science\n\n**Recursion** is a foundational programming technique and algorithmic paradigm where a function solves a complex problem by calling a smaller instance of itself.\n\n---\n\n#### 1. The Two Indispensable Rules\nEvery well-formed recursive algorithm must consist of two components:\n1. **Base Case (Termination Condition)**:\n   - A straightforward condition that can be resolved immediately without making further recursive calls.\n   - Without a base case, execution enters infinite recursion, rapidly exhausting the memory allocated for the execution call stack and triggering a **`StackOverflowError`**.\n2. **Recursive Step (Subproblem Reduction)**:\n   - The expression where the function invokes itself, passing an argument strictly closer to the base case.\n\n---\n\n#### 2. Call Stack & Memory Mechanics\nEvery time a function invokes itself, the operating system allocates a new **Stack Frame** on the Call Stack containing the function's local variables, parameters, and return address.\n\n```text\nCall Stack Growth (Pushing):\n| factorial(1) = 1 [BASE CASE REACHED] |  ↑ Call Stack Grows\n| factorial(2) = 2 * factorial(1)      |  |\n| factorial(3) = 3 * factorial(2)      |  |\n| factorial(4) = 4 * factorial(3)      |  |\n+--------------------------------------+\n\nCall Stack Unwinding (Popping & Returning Values):\n1. factorial(1) returns 1\n2. factorial(2) computes 2 * 1 = 2 and pops\n3. factorial(3) computes 3 * 2 = 6 and pops\n4. factorial(4) computes 4 * 6 = 24 and pops -> FINAL ANSWER: 24\n```\n\n---\n\n#### 3. Code Implementations\n\n```python\n# Python 3: Recursive Factorial\ndef factorial(n: int) -> int:\n    if n <= 1:\n        return 1  # Base Case\n    return n * factorial(n - 1)  # Recursive Step\n\nprint(\"Factorial of 5 is:\", factorial(5))  # Output: 120\n```\n\n```cpp\n// C++: Recursive Factorial\n#include <iostream>\n\nlong long factorial(int n) {\n    if (n <= 1) return 1; // Base Case\n    return n * factorial(n - 1); // Recursive Step\n}\n\nint main() {\n    std::cout << \"Factorial of 5 is: \" << factorial(5) << std::endl;\n    return 0;\n}\n```\n\n---\n\n#### 4. Time & Space Complexity Analysis\n- **Time Complexity**: $\\mathcal{O}(n)$ — $n$ recursive calls are executed sequentially.\n- **Auxiliary Space Complexity**: $\\mathcal{O}(n)$ — $n$ concurrent activation records exist on the stack simultaneously.\n\n---\n\n#### 5. Recursion vs. Iteration\n| Criteria | Recursion | Iteration (Loops) |\n| :--- | :--- | :--- |\n| **Code Structure** | Elegant, compact, intuitive for trees/graphs | Verbose, requires manual state tracking |\n| **Memory Overhead** | Higher (call stack frames $\\mathcal{O}(n)$) | Minimal ($\\mathcal{O}(1)$ auxiliary space) |\n| **Execution Speed** | Slightly slower due to function call overhead | Faster, direct CPU instruction looping |\n| **Best Used For** | Tree traversals, Graph DFS, Divide & Conquer | Linear scans, arrays, numerical counters |",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946318-fq8d",
+        "conversationId": "conv-1790011946312",
+        "sender": "user",
+        "content": "Explain this simpler for a beginner.",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946319-13v4",
+        "conversationId": "conv-1790011946312",
+        "sender": "assistant",
+        "content": "### 💡 Recursion Explained Simply (Beginner-Friendly)\n\nImagine you are sitting in the back row of a crowded movie theater and want to know: *\"Which row am I in?\"*\n\n1. You tap the shoulder of the person directly in front of you and ask: *\"What row are you in?\"*\n2. That person doesn't know either! So they tap the person in front of them with the exact same question.\n3. This repeating inquiry keeps moving forward until it reaches the person in the **very front row**.\n4. The front person says: *\"I'm in Row 1!\"* (This is the **Base Case** — the stopping condition).\n5. Now, the person behind them calculates: $1 + 1 = 2$, and turns around to tell the next person: *\"I'm in Row 2, so you are in Row 3!\"*\n6. The answer cascades all the way back to you!\n\n#### 🔑 The Two Golden Rules:\n- **Rule 1: The Base Case (Stop Condition)**: The simplest scenario that returns an immediate answer without calling itself. Without a base case, recursion runs infinitely until memory runs out (**Stack Overflow**).\n- **Rule 2: The Recursive Step (Progression)**: Breaking the problem down into a smaller instance of the exact same problem until it reaches the base case.",
+        "timestamp": "11:02 PM"
+      }
+    ],
+    "conv-1790011946321": [
+      {
+        "id": "msg-1790011946958-k2na",
+        "conversationId": "conv-1790011946321",
+        "sender": "user",
+        "content": "who is ambhani",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946960-omv0",
+        "conversationId": "conv-1790011946321",
+        "sender": "assistant",
+        "content": "### Mukesh Ambani\n*Indian businessman (born 1957)*\n\nMukesh Dhirubhai Ambani is an Indian businessman. He is the chairman and managing director of Reliance Industries, the largest public company in India by market capitalisation in 2025. As of June 2026, he is the richest person in Asia and the 22nd richest in the world, with a net worth of US$91.8 billion. He has attracted fame due to his growth and wealth, and criticism for being a plutocrat, and reports of market manipulation, political corruption, cronyism, and exploitation.\n\n#### Key Context:\n- 📌 **Topic**: Mukesh Ambani\n- 📖 **Details**: Indian businessman (born 1957)\n- 🎯 **Next Steps**: Ask a follow-up question, request practice questions, or ask for related topics!",
+        "timestamp": "11:02 PM"
+      }
+    ],
+    "conv-1790011946963": [
+      {
+        "id": "msg-1790011946965-mubf",
+        "conversationId": "conv-1790011946963",
+        "sender": "user",
+        "content": "explain recursion in detailed",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946967-z3o6",
+        "conversationId": "conv-1790011946963",
+        "sender": "assistant",
+        "content": "### 🔄 Comprehensive Guide: Recursion in Computer Science\n\n**Recursion** is a foundational programming technique and algorithmic paradigm where a function solves a complex problem by calling a smaller instance of itself.\n\n---\n\n#### 1. The Two Indispensable Rules\nEvery well-formed recursive algorithm must consist of two components:\n1. **Base Case (Termination Condition)**:\n   - A straightforward condition that can be resolved immediately without making further recursive calls.\n   - Without a base case, execution enters infinite recursion, rapidly exhausting the memory allocated for the execution call stack and triggering a **`StackOverflowError`**.\n2. **Recursive Step (Subproblem Reduction)**:\n   - The expression where the function invokes itself, passing an argument strictly closer to the base case.\n\n---\n\n#### 2. Call Stack & Memory Mechanics\nEvery time a function invokes itself, the operating system allocates a new **Stack Frame** on the Call Stack containing the function's local variables, parameters, and return address.\n\n```text\nCall Stack Growth (Pushing):\n| factorial(1) = 1 [BASE CASE REACHED] |  ↑ Call Stack Grows\n| factorial(2) = 2 * factorial(1)      |  |\n| factorial(3) = 3 * factorial(2)      |  |\n| factorial(4) = 4 * factorial(3)      |  |\n+--------------------------------------+\n\nCall Stack Unwinding (Popping & Returning Values):\n1. factorial(1) returns 1\n2. factorial(2) computes 2 * 1 = 2 and pops\n3. factorial(3) computes 3 * 2 = 6 and pops\n4. factorial(4) computes 4 * 6 = 24 and pops -> FINAL ANSWER: 24\n```\n\n---\n\n#### 3. Code Implementations\n\n```python\n# Python 3: Recursive Factorial\ndef factorial(n: int) -> int:\n    if n <= 1:\n        return 1  # Base Case\n    return n * factorial(n - 1)  # Recursive Step\n\nprint(\"Factorial of 5 is:\", factorial(5))  # Output: 120\n```\n\n```cpp\n// C++: Recursive Factorial\n#include <iostream>\n\nlong long factorial(int n) {\n    if (n <= 1) return 1; // Base Case\n    return n * factorial(n - 1); // Recursive Step\n}\n\nint main() {\n    std::cout << \"Factorial of 5 is: \" << factorial(5) << std::endl;\n    return 0;\n}\n```\n\n---\n\n#### 4. Time & Space Complexity Analysis\n- **Time Complexity**: $\\mathcal{O}(n)$ — $n$ recursive calls are executed sequentially.\n- **Auxiliary Space Complexity**: $\\mathcal{O}(n)$ — $n$ concurrent activation records exist on the stack simultaneously.\n\n---\n\n#### 5. Recursion vs. Iteration\n| Criteria | Recursion | Iteration (Loops) |\n| :--- | :--- | :--- |\n| **Code Structure** | Elegant, compact, intuitive for trees/graphs | Verbose, requires manual state tracking |\n| **Memory Overhead** | Higher (call stack frames $\\mathcal{O}(n)$) | Minimal ($\\mathcal{O}(1)$ auxiliary space) |\n| **Execution Speed** | Slightly slower due to function call overhead | Faster, direct CPU instruction looping |\n| **Best Used For** | Tree traversals, Graph DFS, Divide & Conquer | Linear scans, arrays, numerical counters |",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946970-agp3",
+        "conversationId": "conv-1790011946963",
+        "sender": "user",
+        "content": "Give me a practical C++ / Java example.",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946973-tc1x",
+        "conversationId": "conv-1790011946963",
+        "sender": "assistant",
+        "content": "### 💻 Practical Code Examples: Recursion\n\nHere are clean, commented implementations of **Factorial Calculation** ($n!$) and **Countdown**:\n\n#### 1. Python Implementation:\n```python\ndef factorial(n: int) -> int:\n    \"\"\"Calculates n! = n * (n-1) * ... * 1\"\"\"\n    # 1. BASE CASE: Prevents infinite recursion\n    if n <= 1:\n        return 1\n    \n    # 2. RECURSIVE CASE: Subproblem reduction\n    return n * factorial(n - 1)\n\n# Test the function\nprint(factorial(5))  # Output: 120 (5 * 4 * 3 * 2 * 1)\n```\n\n#### 2. C++ Implementation:\n```cpp\n#include <iostream>\n\nlong long factorial(int n) {\n    // 1. Base Case\n    if (n <= 1) {\n        return 1;\n    }\n    // 2. Recursive Case\n    return n * factorial(n - 1);\n}\n\nint main() {\n    int number = 5;\n    std::cout << \"Factorial of \" << number << \" is: \" << factorial(number) << std::endl;\n    return 0;\n}\n```\n\n#### 3. Execution Trace for `factorial(3)`:\n- `factorial(3)` calls `3 * factorial(2)`\n- `factorial(2)` calls `2 * factorial(1)`\n- `factorial(1)` hits Base Case and returns `1`\n- Unwinds: `2 * 1 = 2` $\\rightarrow$ `3 * 2 = 6`.",
+        "timestamp": "11:02 PM"
+      }
+    ],
+    "conv-1790011946976": [
+      {
+        "id": "msg-1790011946978-9dk5",
+        "conversationId": "conv-1790011946976",
+        "sender": "user",
+        "content": "on which api you are working to give ans",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946980-euo4",
+        "conversationId": "conv-1790011946976",
+        "sender": "assistant",
+        "content": "### 🛠️ Architecture & APIs Powering AI Study Assistant\n\nThe **AI Study Assistant** is powered by an enterprise cloud architecture built on **Microsoft Azure AI Services**:\n\n---\n\n#### 1. 🧠 LLM Reasoning & Text Completions\n- **Service**: **Microsoft Azure AI Foundry / Azure OpenAI**\n- **Configured Endpoint**: `https://aistudy101.services.ai.azure.com/`\n- **Deployment Name**: `Aiassistant`\n- **How it Works**:\n  - When the Azure Foundry model responds, completions are generated directly by Azure AI models (e.g. GPT-4o / GPT-4o-mini).\n  - If your Azure resource returns `500 Internal Server Error` or `404 Deployment Not Found` (for instance, when a model is not currently deployed in Azure AI Foundry or has exceeded Azure quota limits), the system seamlessly fails over to our **Intelligent Local Study Engine** to ensure zero-downtime, verified answers.\n\n---\n\n#### 2. 🔍 Document Retrieval (RAG - Retrieval-Augmented Generation)\n- **Service**: **Azure AI Search**\n- **Configured Endpoint**: `https://aistudy-search-india-99.search.windows.net`\n- **Search Index**: `study-documents-index`\n- **How it Works**:\n  - Indexes chunks of your uploaded course materials (PDFs, PPTXs, Word notes) in the *\"My Documents\"* tab.\n  - Executes hybrid semantic and keyword search so answers can be cited with exact page numbers.\n\n---\n\n#### 3. 📄 Document Intelligence (OCR & Extraction)\n- **Service**: **Azure Document Intelligence** (`study-intelligence`)\n- **Configured Endpoint**: `https://study-intelligence.cognitiveservices.azure.com/`\n- **How it Works**:\n  - Performs layout parsing, optical character recognition (OCR), table extraction, and paragraph chunking when new study files are uploaded.\n\n---\n\n#### 4. 🎙️ Voice Input & Natural Speech\n- **Service**: **Azure AI Speech Services**\n- **Configured Region**: `centralindia`\n- **How it Works**:\n  - Converts microphone speech to text and reads out study explanations via neural text-to-speech.\n\n---\n\n#### 5. 🌐 Academic Knowledge & Curriculum Engine\n- **How it Works**:\n  - Powers verified CS curriculum guides (Java, C++, Python, Recursion, Binary Search, Trees, Graphs, OS, DBMS), live encyclopedic entity lookups via Wikipedia OpenSearch, and instant arithmetic computation.",
+        "timestamp": "11:02 PM"
+      }
+    ],
+    "conv-1790011946984": [
+      {
+        "id": "msg-1790011946986-ndql",
+        "conversationId": "conv-1790011946984",
+        "sender": "user",
+        "content": "java",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946988-htzu",
+        "conversationId": "conv-1790011946984",
+        "sender": "assistant",
+        "content": "### ☕ Java Programming Language\n\n**Java** is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. It was created by **James Gosling** at **Sun Microsystems** (released in 1995, now maintained by Oracle Corporation).\n\n---\n\n#### 1. Core Architecture: JDK vs. JRE vs. JVM\n- **JDK (Java Development Kit)**: Complete toolkit for developers. Includes the compiler (`javac`), debugger, and the JRE.\n- **JRE (Java Runtime Environment)**: Provides the minimum environment to *run* compiled Java bytecode. Includes standard class libraries and the JVM.\n- **JVM (Java Virtual Machine)**: The core engine that executes Java bytecode (`.class`) by converting it to native machine code on the host operating system using the **JIT (Just-In-Time) Compiler**.\n\n```text\n+-------------------------------------------------------+\n| JDK (Development Tools: javac, jar, javadoc)          |\n|  +-------------------------------------------------+  |\n|  | JRE (Libraries, runtime packages)               |  |\n|  |   +------------------------------------------+  |  |\n|  |   | JVM (Class Loader, Bytecode Verifier,    |  |  |\n|  |   |      JIT Compiler, Garbage Collector)    |  |  |\n|  |   +------------------------------------------+  |  |\n|  +-------------------------------------------------+  |\n+-------------------------------------------------------+\n```\n\n---\n\n#### 2. Key Pillars & Features\n1. **\"Write Once, Run Anywhere\" (WORA)**: Bytecode executes on any platform with a compatible JVM.\n2. **Robust Memory Management**: Automatic **Garbage Collection (GC)** deallocates unreferenced heap objects, eliminating manual pointer memory leaks.\n3. **Strict Object-Oriented**: Everything (except 8 primitive data types) is modeled as an Object.\n4. **Multithreading**: Native support for concurrent execution via `Thread` class and `java.util.concurrent`.\n\n---\n\n#### 3. Standard Code Example\n```java\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello from Java! 🚀\");\n    }\n}\n```\n\n---\n\n#### 4. Key Exam & Interview Takeaways\n- **Why is Java not 100% pure Object-Oriented?** Because it supports primitive data types (`int`, `char`, `boolean`, `float`, etc.) for performance.\n- **JVM Memory Areas**: Class/Method Area (Metaspace), Heap (Objects), Stack (Method frames & local variables), Program Counter (PC) Register, Native Method Stack.",
+        "timestamp": "11:02 PM"
+      }
+    ],
+    "conv-1790011946990": [
+      {
+        "id": "msg-1790011946992-7d8y",
+        "conversationId": "conv-1790011946990",
+        "sender": "user",
+        "content": "give me a roadmap for full stack web development",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011946994-ynge",
+        "conversationId": "conv-1790011946990",
+        "sender": "assistant",
+        "content": "## 🗺️ Full Stack Web Development Roadmap (MERN / Next.js Stack)\n\n> A comprehensive, industry-standard roadmap to go from beginner to production-ready Full Stack Web Developer.\n\n⏱️ **Estimated Timeline**: `6 to 8 Months (15-20 hrs/week)`\n\n### 📋 Prerequisites & Recommendations\n- [x] Basic computer literacy\n- [x] Problem-solving mindset\n- [x] Text editor (VS Code)\n\n---\n\n### 🚀 Step-by-Step Learning Phases\n\n#### Phase 1: Web Fundamentals & Modern CSS (Weeks 1 - 4)\n🎯 **Primary Focus**: *Mastering document structure, styling, and responsive layout systems*\n\n**Key Topics & Skills to Master:**\n- 🔹 **HTML5 semantic elements, accessibility (a11y), and SEO basics**\n- 🔹 **CSS3 Box Model, Flexbox, CSS Grid, and responsive media queries**\n- 🔹 **Modern styling with Tailwind CSS & CSS Modules**\n- 🔹 **Git & GitHub: Branching, commits, pull requests, and collaboration**\n\n**🛠️ Milestone Projects:**\n- 💻 `Responsive portfolio landing page`\n- 💻 `Accessible e-commerce product card grid`\n\n---\n\n#### Phase 2: JavaScript Mastery (Core to Async) (Weeks 5 - 10)\n🎯 **Primary Focus**: *Deep dive into language mechanics, DOM manipulation, and asynchronous programming*\n\n**Key Topics & Skills to Master:**\n- 🔹 **Variables (let/const), scope, closures, and hoisting**\n- 🔹 **Data structures: Arrays, Objects, Maps, Sets, and modern ES6+ methods**\n- 🔹 **Asynchronous JS: Event Loop, Callbacks, Promises, and Async/Await**\n- 🔹 **Fetch API, RESTful HTTP methods, status codes, and error handling**\n- 🔹 **DOM event delegation, local storage, and client-side form validation**\n\n**🛠️ Milestone Projects:**\n- 💻 `Interactive Task/Kanban board with LocalStorage`\n- 💻 `Weather dashboard using external REST API`\n\n---\n\n#### Phase 3: Frontend Frameworks (React & Next.js) (Weeks 11 - 16)\n🎯 **Primary Focus**: *Component-driven architecture, state management, and Server-Side Rendering*\n\n**Key Topics & Skills to Master:**\n- 🔹 **React 18 fundamentals: JSX, Props, State, and Component Lifecycle**\n- 🔹 **Essential Hooks: useState, useEffect, useRef, useMemo, useCallback**\n- 🔹 **Client-side state management (Zustand / Redux Toolkit / React Query)**\n- 🔹 **TypeScript with React: Strict typing, interfaces, and generic components**\n- 🔹 **Next.js 14 App Router: Server Components (RSC), SSR, SSG, and Route Handlers**\n\n**🛠️ Milestone Projects:**\n- 💻 `Full-featured E-Commerce Storefront with shopping cart`\n- 💻 `Social feed / Community blog with markdown rendering`\n\n---\n\n#### Phase 4: Backend Engineering, APIs & Databases (Weeks 17 - 22)\n🎯 **Primary Focus**: *Server architecture, REST/GraphQL APIs, database modeling, and authentication*\n\n**Key Topics & Skills to Master:**\n- 🔹 **Node.js runtime & Express.js / Next.js API Routes**\n- 🔹 **Relational Databases (PostgreSQL / MySQL) with Prisma ORM**\n- 🔹 **NoSQL Databases (MongoDB) & schema modeling with Mongoose**\n- 🔹 **Authentication & Security: JWT, HTTP-Only cookies, OAuth2 / NextAuth, bcrypt password hashing**\n- 🔹 **API Security: Rate limiting, CORS, input validation (Zod), and sanitization**\n\n**🛠️ Milestone Projects:**\n- 💻 `Authentication & User Management Microservice`\n- 💻 `Multi-tenant Study Assistant with REST API backend`\n\n---\n\n#### Phase 5: Production, DevOps & System Design (Weeks 23 - 28)\n🎯 **Primary Focus**: *Containerization, CI/CD, cloud deployment, and scalability*\n\n**Key Topics & Skills to Master:**\n- 🔹 **Docker containerization: Dockerfile, multi-stage builds, and Docker Compose**\n- 🔹 **Cloud deployment: Vercel, AWS (EC2/S3) or Render, with custom domain setup**\n- 🔹 **CI/CD automation with GitHub Actions (lint, test, build, deploy)**\n- 🔹 **Caching strategies with Redis & database indexing for query performance**\n- 🔹 **Basic system design: Load balancing, horizontal scaling, and microservices vs monolith**\n\n**🛠️ Milestone Projects:**\n- 💻 `Complete SaaS application with Stripe billing and automated CI/CD pipeline`\n\n---\n\n### 🏆 Capstone Portfolio Projects\n1. **Full-Stack AI SaaS with authentication, Stripe subscriptions, and PostgreSQL database**\n2. **Real-Time Collaborative Workspace (like Notion or Slack) with WebSockets & Redis**\n\n### 💡 Pro Tips for Success\n- ⭐ Do not get stuck in tutorial hell; build your own projects without following tutorials step-by-step.\n- ⭐ Always learn TypeScript early—over 90% of modern enterprise teams require it.\n- ⭐ Write clean, readable code and document your Git commits professionally.\n\n> **Next Step**: Choose Phase 1, start building today's scheduled tasks, and ask me to create a practice quiz on any phase whenever you're ready!",
+        "timestamp": "11:02 PM"
+      }
+    ],
+    "conv-1790011946997": [
+      {
+        "id": "msg-1790011946999-pefz",
+        "conversationId": "conv-1790011946997",
+        "sender": "user",
+        "content": "roadmap for devops",
+        "timestamp": "11:02 PM"
+      },
+      {
+        "id": "msg-1790011947001-dzht",
+        "conversationId": "conv-1790011946997",
+        "sender": "assistant",
+        "content": "## 🗺️ DevOps & Cloud Engineering Roadmap\n\n> Path from Linux and automation to Kubernetes, CI/CD, Infrastructure as Code, and Cloud Architecture.\n\n⏱️ **Estimated Timeline**: `5 to 7 Months (15 hrs/week)`\n\n### 📋 Prerequisites & Recommendations\n- [x] Basic command line familiarity\n- [x] Basic networking understanding\n\n---\n\n### 🚀 Step-by-Step Learning Phases\n\n#### Phase 1: Linux, Shell Scripting & Networking (Weeks 1 - 4)\n🎯 **Primary Focus**: *Operating systems, Bash automation, and network fundamentals*\n\n**Key Topics & Skills to Master:**\n- 🔹 **Linux CLI, file permissions, process management, and systemd**\n- 🔹 **Bash scripting for automated tasks**\n- 🔹 **Networking: TCP/IP, DNS, OSI Model, SSH, SSL/TLS, and reverse proxies (Nginx)**\n- 🔹 **Git workflows and version control branching**\n\n**🛠️ Milestone Projects:**\n- 💻 `Automated server backup and health monitoring bash script`\n\n---\n\n#### Phase 2: Containerization with Docker (Weeks 5 - 9)\n🎯 **Primary Focus**: *Docker images, multi-stage builds, networking, and volumes*\n\n**Key Topics & Skills to Master:**\n- 🔹 **Container concepts vs Virtual Machines**\n- 🔹 **Writing efficient Dockerfiles and multi-stage builds**\n- 🔹 **Docker volumes, networking, and environment variables**\n- 🔹 **Docker Compose for multi-container orchestration**\n\n**🛠️ Milestone Projects:**\n- 💻 `Containerized 3-tier application (React + Node + PostgreSQL) with Docker Compose`\n\n---\n\n#### Phase 3: CI/CD & Cloud Providers (AWS / Azure) (Weeks 10 - 15)\n🎯 **Primary Focus**: *Continuous Integration/Deployment and Cloud infrastructure*\n\n**Key Topics & Skills to Master:**\n- 🔹 **CI/CD pipelines with GitHub Actions / GitLab CI**\n- 🔹 **Automated testing, linting, and container registry publishing (Docker Hub / ECR)**\n- 🔹 **Cloud fundamentals: AWS (EC2, S3, IAM, VPC, RDS) or Azure (VM, Blob, Entra ID)**\n- 🔹 **Security best practices: Principle of least privilege, secrets management**\n\n**🛠️ Milestone Projects:**\n- 💻 `Fully automated zero-downtime CI/CD pipeline deploying to cloud on git push`\n\n---\n\n#### Phase 4: Kubernetes & Infrastructure as Code (IaC) (Weeks 16 - 22)\n🎯 **Primary Focus**: *Orchestrating microservices at scale and automated infrastructure*\n\n**Key Topics & Skills to Master:**\n- 🔹 **Kubernetes architecture: Pods, Deployments, Services, Ingress, ConfigMaps, Secrets**\n- 🔹 **Helm package manager for Kubernetes**\n- 🔹 **Infrastructure as Code with Terraform: Providers, state management, modules**\n- 🔹 **Observability & Monitoring: Prometheus, Grafana, and structured logging**\n\n**🛠️ Milestone Projects:**\n- 💻 `Terraform script provisioning cloud cluster running Kubernetes microservices with Grafana dashboards`\n\n---\n\n### 🏆 Capstone Portfolio Projects\n1. **Production GitOps pipeline with ArgoCD and Kubernetes cluster on AWS/Azure**\n2. **Multi-region Terraform deployment with automated disaster recovery**\n\n### 💡 Pro Tips for Success\n- ⭐ Always automate through code; never configure cloud resources manually through the GUI in production.\n- ⭐ Learn Kubernetes by building from scratch on minikube/k3s before managing cloud EKS/AKS.\n\n> **Next Step**: Choose Phase 1, start building today's scheduled tasks, and ask me to create a practice quiz on any phase whenever you're ready!",
+        "timestamp": "11:02 PM"
+      }
+    ]
+  },
+  "documents": [],
+  "chunks": [
+    {
+      "chunkId": "chk-1",
+      "documentId": "doc-1",
+      "userId": "user-demo-123",
+      "filename": "Operating Systems Notes.pdf",
+      "pageNumber": 18,
+      "topic": "Deadlock Prevention",
+      "content": "Deadlock prevention requires invalidating at least one of the four Coffman conditions: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. In circular wait prevention, resources are assigned numerical IDs and must be acquired in ascending order.",
+      "score": 0.95
+    },
+    {
+      "chunkId": "chk-2",
+      "documentId": "doc-1",
+      "userId": "user-demo-123",
+      "filename": "Operating Systems Notes.pdf",
+      "pageNumber": 22,
+      "topic": "Banker's Algorithm",
+      "content": "Bankers algorithm is a deadlock avoidance algorithm used in operating systems to test for safety by simulating the allocation for predetermined maximum possible amounts of all resources.",
+      "score": 0.88
+    },
+    {
+      "chunkId": "chk-3",
+      "documentId": "doc-2",
+      "userId": "user-demo-123",
+      "filename": "Trees Lecture.pdf",
+      "pageNumber": 10,
+      "topic": "Binary Search Trees",
+      "content": "In a Binary Search Tree (BST), for every node, values in the left subtree are strictly smaller than the node value, and values in the right subtree are strictly greater.",
+      "score": 0.92
+    },
+    {
+      "chunkId": "chk-4",
+      "documentId": "doc-3",
+      "userId": "user-demo-123",
+      "filename": "DSA Notes.pdf",
+      "pageNumber": 45,
+      "topic": "Graph Traversal",
+      "content": "Breadth-First Search (BFS) uses a Queue data structure to explore nodes level by level. Depth-First Search (DFS) uses a Stack or recursion to explore deeply before backtracking.",
+      "score": 0.91
+    }
+  ]
+}

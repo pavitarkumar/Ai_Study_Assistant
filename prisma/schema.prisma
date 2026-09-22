@@ -1,0 +1,301 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String          @id @default(uuid())
+  email          String          @unique
+  name           String
+  role           String          @default("Student") // Student or Admin
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  
+  profile        Profile?
+  preferences    UserPreference?
+  streak         Streak?
+  goals          Goal[]
+  studyPlans     StudyPlan[]
+  sessions       StudySession[]
+  topicMasteries TopicMastery[]
+  conversations  Conversation[]
+  documents      Document[]
+  quizAttempts   QuizAttempt[]
+  aiUsages       AIUsage[]
+  aiFeedbacks    AIFeedback[]
+
+  @@map("users")
+}
+
+model Profile {
+  id            String   @id @default(uuid())
+  userId        String   @unique
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  learningLevel String   @default("Intermediate") // Beginner, Intermediate, Advanced
+  targetGoal    String?  @db.Text
+  bio           String?  @db.Text
+  avatarUrl     String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("profiles")
+}
+
+model UserPreference {
+  id             String   @id @default(uuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  preferredTheme String   @default("light")
+  enableVoice    Boolean  @default(true)
+  dailyTargetMin Int      @default(60)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("user_preferences")
+}
+
+model Streak {
+  id             String   @id @default(uuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  currentStreak  Int      @default(12)
+  longestStreak  Int      @default(15)
+  lastActiveDate DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("streaks")
+}
+
+model Topic {
+  id          String         @id @default(uuid())
+  name        String         @unique
+  category    String
+  description String?        @db.Text
+  masteries   TopicMastery[]
+  questions   QuizQuestion[]
+
+  @@map("topics")
+}
+
+model TopicMastery {
+  id           String   @id @default(uuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topicId      String
+  topic        Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  masteryScore Float    @default(50.0) // 0 - 100%
+  lastAssessed DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@unique([userId, topicId])
+  @@index([userId])
+  @@map("topic_mastery")
+}
+
+model Goal {
+  id          String      @id @default(uuid())
+  userId      String
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title       String
+  description String?     @db.Text
+  targetDate  DateTime
+  dailyHours  Float       @default(2.0)
+  progressPct Float       @default(0.0)
+  status      String      @default("Active") // Active, Paused, Completed
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  studyPlans  StudyPlan[]
+
+  @@index([userId])
+  @@map("goals")
+}
+
+model StudyPlan {
+  id           String          @id @default(uuid())
+  userId       String
+  user         User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  goalId       String?
+  goal         Goal?           @relation(fields: [goalId], references: [id], onDelete: SetNull)
+  title        String
+  durationDays Int             @default(30)
+  status       String          @default("Active")
+  createdAt    DateTime        @default(now())
+  updatedAt    DateTime        @updatedAt
+  items        StudyPlanItem[]
+
+  @@index([userId])
+  @@map("study_plans")
+}
+
+model StudyPlanItem {
+  id          String    @id @default(uuid())
+  planId      String
+  plan        StudyPlan @relation(fields: [planId], references: [id], onDelete: Cascade)
+  dayNumber   Int
+  topic       String
+  task        String    @db.Text
+  durationMin Int
+  completed   Boolean   @default(false)
+  completedAt DateTime?
+
+  @@index([planId])
+  @@map("study_plan_items")
+}
+
+model StudySession {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topic       String
+  durationMin Int
+  notes       String?  @db.Text
+  sessionDate DateTime @default(now())
+
+  @@index([userId])
+  @@map("study_sessions")
+}
+
+model Conversation {
+  id        String    @id @default(uuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  topic     String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  messages  Message[]
+
+  @@index([userId])
+  @@map("conversations")
+}
+
+model Message {
+  id             String       @id @default(uuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  sender         String       // user or assistant
+  content        String       @db.Text
+  citations      String?      @db.Text // JSON string of sources
+  createdAt      DateTime     @default(now())
+  feedbacks      AIFeedback[]
+
+  @@index([conversationId])
+  @@map("messages")
+}
+
+model Document {
+  id        String          @id @default(uuid())
+  userId    String
+  user      User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  filename  String
+  fileSize  Int
+  mimeType  String
+  topics    String          @db.Text // JSON array of strings
+  status    String          // Uploading, Processing, Indexed, Failed
+  blobUrl   String?         @db.Text
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+  chunks    DocumentChunk[]
+
+  @@index([userId])
+  @@map("documents")
+}
+
+model DocumentChunk {
+  id         String   @id @default(uuid())
+  documentId String
+  document   Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  userId     String
+  filename   String
+  pageNumber Int
+  topic      String
+  content    String   @db.Text
+  embedding  String?  @db.Text // JSON vector embedding
+  createdAt  DateTime @default(now())
+
+  @@index([documentId])
+  @@index([userId])
+  @@map("document_chunks")
+}
+
+model QuizAttempt {
+  id          String       @id @default(uuid())
+  userId      String
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topic       String
+  difficulty  String       // Easy, Medium, Hard
+  totalScore  Float
+  maxScore    Float
+  accuracyPct Float
+  completedAt DateTime     @default(now())
+  answers     QuizAnswer[]
+
+  @@index([userId])
+  @@map("quiz_attempts")
+}
+
+model QuizQuestion {
+  id            String       @id @default(uuid())
+  topicId       String?
+  topic         Topic?       @relation(fields: [topicId], references: [id], onDelete: SetNull)
+  topicName     String
+  difficulty    String
+  questionType  String       // MCQ, TrueFalse, ShortAnswer, CodeOutput, Scenario
+  questionText  String       @db.Text
+  optionsJson   String?      @db.Text // JSON array of options
+  correctAnswer String       @db.Text
+  explanation   String       @db.Text
+  answers       QuizAnswer[]
+
+  @@map("quiz_questions")
+}
+
+model QuizAnswer {
+  id         String       @id @default(uuid())
+  attemptId  String
+  attempt    QuizAttempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId String
+  question   QuizQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  userAnswer String       @db.Text
+  isCorrect  Boolean
+
+  @@index([attemptId])
+  @@map("quiz_answers")
+}
+
+model AIUsage {
+  id            String   @id @default(uuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  requestId     String?
+  model         String
+  provider      String   // mock or azure
+  inputTokens   Int?
+  outputTokens  Int?
+  totalTokens   Int?
+  latencyMs     Int?
+  estimatedCost Float?
+  createdAt     DateTime @default(now())
+
+  @@index([userId])
+  @@map("ai_usage")
+}
+
+model AIFeedback {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messageId String
+  message   Message  @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  rating    String   // helpful or unhelpful
+  reason    String?  // Incorrect, Too difficult, Too long, Not relevant, Not grounded in my material, Other
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([messageId])
+  @@map("ai_feedback")
+}
